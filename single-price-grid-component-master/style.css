@@ -1,0 +1,119 @@
+@import url(https://fonts.google.com/specimen/Karla);
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204, 43%, 93%);
+  letter-spacing: 1px;
+}
+
+.grid1 > h2 {
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  height: 50px;
+
+  border-style: none;
+  color: white;
+  width: 300px;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: hsl(71, 73%, 54%);
+  margin-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(71, 73%, 49%);
+}
+
+.container {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+
+  border-radius: 4px;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "main main"
+    "left right";
+}
+
+.price {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+}
+.month {
+  font-family: "Karla", sans-serif;
+  margin-left: 13px;
+  font-weight: 400;
+  color: hsl(218, 22%, 67%);
+  position: relative;
+  top: -8px;
+}
+.grid1 {
+  border-radius: 4px;
+  font-family: "Karla", sans-serif;
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  grid-area: main;
+}
+.grid1 > p {
+  font-family: "Karla", sans-serif;
+  color: hsl(218, 22%, 67%);
+}
+
+.grid1 > h3 {
+  font-family: "Karla", sans-serif;
+  color: hsl(71, 73%, 54%);
+}
+
+.grid2 {
+  border-radius: 4px;
+  font-family: "Karla", sans-serif;
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  grid-area: left;
+  background-color: hsl(179, 69%, 37%);
+}
+
+.grid3 > p {
+  font-family: "Karla", sans-serif;
+  color: hsl(204, 43%, 93%);
+  width: 300px;
+  font-weight: 400px;
+  letter-spacing: 2px;
+  margin-right: 0px;
+}
+
+.grid3 {
+  border-radius: 4px;
+  font-family: "Karla", sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: white;
+  padding-bottom: 50px;
+
+  background-color: hsl(179, 55%, 56%);
+  grid-area: right;
+  width: 350px;
+}
