@@ -1,0 +1,27 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#button-form {
+  width: 20rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: bold;
+  background-color: aquamarine;
+  color: blue;
+}
+
+#lsOutput {
+  background-color: aquamarine;
+  margin: 20px;
+  display: flex;
+  padding: 10px;
+  height: 38em;
+  border-style: dashed;
+  border-radius: 4px;
+}
+div {
+  margin: 10px;
+}

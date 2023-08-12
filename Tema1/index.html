@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tema1</title>
+  </head>
+  <body>
+    <button id="button-form">Task Create</button>
+
+    <dialog id="window">
+      <form method="dialog">
+        <label for="title">Task title:</label><br />
+        <input type="text" id="title" name="title" /> <br />
+        <br />
+        <label for="description">Description:</label><br />
+
+        <input type="text" id="description" name="description" /> <br />
+        <br />
+        <label for="assignee">Asignee:</label><br />
+
+        <input type="text" id="asignee" name="asignee" /> <br />
+        <br />
+        <input type="submit" id="submitBtn" />
+      </form>
+    </dialog>
+
+    <div id="lsOutput"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- he task form should contain fields for a title, description and assignee.
+The title should only contain alphanumeric characters and shouldn’t be longer than 50 chars. Use a standard input.
+The description should have a maximum of 250 chars, use a textarea.
+Use an email field for the assignee. -->
